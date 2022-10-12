@@ -1,0 +1,101 @@
+body{
+    height: 100vh;
+    background-color: aqua;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.container{
+    background-image: linear-gradient(45deg, white, lightblue);
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: auto;
+    height: 65vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    box-shadow: 0 0 15px 0 black;
+}
+
+.message{
+    background-color: lightgray;
+    width:24%;
+    padding:10px;
+    margin:17px 2px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin:auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInp{
+    background-image: linear-gradient(180deg, white, lightblue);
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+    font-family: serif;
+    box-shadow: 0 0 5px 0 black;
+}
+
+.btn{
+    background-color: greenyellow;
+    margin: 0 5px;
+    width:11%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    box-shadow: 0 0 5px 0 black;
+}
+
+.btn:hover {
+    opacity: 1;
+    color: red;
+}
+  
+.navbar{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+.navbar *{
+    display: inline;
+}
+
+.navbar li{
+    margin: 5px;
+}
+
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+}
